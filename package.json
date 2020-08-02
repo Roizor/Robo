@@ -1,0 +1,19 @@
+{
+  "name": "robo",
+  "version": "1.0.0",
+  "description": "A Minecraft bot.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "inquirer-file-tree-selection-prompt": "^1.0.6",
+    "mineflayer": "^2.25.0",
+    "nodemon": "^2.0.4",
+    "prismarine-viewer": "^1.2.2",
+    "serverline": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
