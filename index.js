@@ -40,7 +40,7 @@ inquirer.prompt([
 				{
 					name: 'version',
 					message: 'Version:',
-					default: '1.16.1'
+					default: '1.16.4'
 				}
 			]).then((answers) => {
 				makeBot(answers.username, answers.password, answers.host, answers.port, answers.version);
